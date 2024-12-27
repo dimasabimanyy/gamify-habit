@@ -25,11 +25,11 @@ const HabitTracker = () => {
   const progressData = [
     { day: 'Mon', Exercise: 1, Read: 1, Meditate: 1 },
     { day: 'Tue', Exercise: 1, Read: 1, Meditate: 1 },
-    { day: 'Wed', Exercise: 0, Read: 1, Meditate: 1 },
+    { day: 'Wed', Exercise: 3, Read: 10, Meditate: 1 },
     { day: 'Thu', Exercise: 1, Read: 0, Meditate: 1 },
     { day: 'Fri', Exercise: 1, Read: 1, Meditate: 1 },
     { day: 'Sat', Exercise: 1, Read: 1, Meditate: 0 },
-    { day: 'Sun', Exercise: 0, Read: 1, Meditate: 1 }
+    { day: 'Sun', Exercise: 1, Read: 1, Meditate: 1 }
   ];
 
   // Handle initial mount to prevent hydration issues
